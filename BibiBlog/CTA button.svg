@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="471px" height="56px" viewBox="0 0 471 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>CTA button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.9352696%" y1="0%" x2="55.9352696%" y2="93.9699769%" id="linearGradient-1">
+            <stop stop-color="#BB141A" offset="0%"></stop>
+            <stop stop-color="#DD152E" offset="25.3831465%"></stop>
+            <stop stop-color="#DC1830" offset="48.5224127%"></stop>
+            <stop stop-color="#FF213C" offset="70.9123301%"></stop>
+            <stop stop-color="#ED1B35" offset="81.1707544%"></stop>
+            <stop stop-color="#B7131A" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="455" height="40" rx="20"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bibi_service1" transform="translate(-240.000000, -550.000000)">
+            <g id="CTA-button" transform="translate(248.000000, 554.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-2-Copy" fill="#C1151E" x="0" y="3" width="455" height="40" rx="20"></rect>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <text id="ЗАМОВИТИ-БЕЗКОШТОВНУ" font-family="MuseoSansCyrl-700, Museo Sans Cyrl" font-size="16" font-weight="500" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="36" y="26">ЗАМОВИТИ БЕЗКОШТОВНУ КОНСУЛЬТАЦІЮ</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

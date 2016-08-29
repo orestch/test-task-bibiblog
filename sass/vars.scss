@@ -1,0 +1,38 @@
+// VARS
+// Fonts
+$museo300: 'Museo Sans Cyrl 300';
+$museo500: 'Museo Sans Cyrl 500';
+$museo700: 'Museo Sans Cyrl 700';
+$museo900: 'Museo Sans Cyrl 900';
+$museo100i: 'Museo Sans Cyrl 100 Italic';
+$museo500i: 'Museo Sans Cyrl 500 Italic';
+
+$museoregular: "MuseoSansRegular";
+$museobold: "MuseoSansBold";
+$museoitalic: "MuseoSansItalic";
+$museolight: "MuseoSansLight";
+$museomedium: "MuseoSansMedium";
+$museoblack: "MuseoSansBlack";
+$museobolditalic: "MuseoSansBoldItalic";
+$museomediumitalic: "MuseoSansMediumItalic";
+$museolightitalic: "MuseoSansLightItalic";
+$museoblackitalic: "MuseoSansBlackItalic";
+
+
+// Colors
+$white: #fff;
+$light-grey: #747474;
+$dark-grey-heading: #232323;
+$middle-grey-subtitle: #4b4b4b;
+$middle-grey-subtitle-h: #a5a5a5;
+$middle-grey-subtitle-l: #dbdbdb;
+$middle-grey-flow: #333;
+$light-grey-info: #9b9b9b;
+$middle-grey-aside: #4a4a4a;
+
+// FUNCTIONS
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}em;
+}

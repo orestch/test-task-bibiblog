@@ -477,7 +477,7 @@ body {
 
 .divider {
   margin-top: -10px;
-  width: 680px;
+  width: 90%;
   height: 3px;
   background-color: #EDEDED; }
 
@@ -499,7 +499,7 @@ body {
   max-width: 558px;
   margin: 0 auto;
   margin-top: 35px; }
-  .main-article header time {
+  .main-article time {
     color: #9b9b9b;
     font: normal 0.875em/1.625em "MuseoSansRegular", sans-serif; }
   .main-article h1 {
@@ -532,15 +532,15 @@ body {
       width: 266px;
       height: 2px;
       background: #9b9b9b; }
-  .main-article #tags {
+  .main-article .tags {
     margin-top: 42px; }
-    .main-article #tags .list-heading {
+    .main-article .tags .list-heading {
       color: #a5a5a5;
       font: normal 1em/1em "MuseoSansMedium", sans-serif;
       float: left;
       font-weight: bold;
       margin: 5px 18px 0 0; }
-    .main-article #tags .tags-listing li {
+    .main-article .tags .tags-listing li {
       float: left;
       list-style-type: none;
       padding: 3px 21px;
@@ -548,25 +548,25 @@ body {
       border: 1px solid #dbdbdb;
       font: normal 0.875em/1.5em "MuseoSansRegular", sans-serif;
       border-radius: 3px; }
-  .main-article #social {
+  .main-article .social {
     clear: both;
     margin-top: 18px;
     text-align: center; }
-    .main-article #social #social-wrapper {
+    .main-article .social .social-wrapper {
       margin: 0 auto;
       width: 155px; }
-    .main-article #social .social-heading {
+    .main-article .social .social-heading {
       color: #a5a5a5;
       font: bold 1em/1em "MuseoSansMedium", sans-serif;
       margin-right: 6px;
       float: left; }
-    .main-article #social .social-listing li {
+    .main-article .social .social-listing li {
       float: left;
       list-style-type: none;
       margin-right: 6px;
       margin-top: 6px; }
   .main-article #article-footer hr {
-    width: 558px;
+    width: 85%;
     height: 2px;
     margin-top: -12px; }
 
@@ -587,6 +587,8 @@ body {
 #comments {
   margin-top: 25px;
   padding: 0 57px; }
+  #comments h2 {
+    display: none; }
   #comments .nav-primary {
     margin: 0 0 24px;
     border-bottom: 2px solid #e7e9ee; }
@@ -938,7 +940,7 @@ body {
   margin-bottom: 53px;
   padding: 0 18px; }
   #useful-articles hr {
-    width: 680px;
+    width: 90%;
     height: 3px;
     opacity: 0.1;
     background-color: #4b4b4b; }
@@ -955,17 +957,123 @@ body {
     font: bold 1.1875em/1.5em "MuseoSansRegular", sans-serif; }
     #useful-articles h3 a {
       color: #4a4a4a; }
-  #useful-articles .category-wrapper {
-    margin-bottom: 20px; }
-    #useful-articles .category-wrapper .category {
+  #useful-articles time {
+    color: #9b9b9b;
+    font: normal 0.875em/1em "MuseoSansRegular", sans-serif; }
+
+.category-wrapper {
+  margin-bottom: 20px; }
+  .category-wrapper .category {
+    color: #4b4b4b;
+    font: normal 0.6875em/0.625em "MuseoSansRegular", sans-serif;
+    background: #EDEDED;
+    display: inline-block;
+    padding: 8px 8px 6px 8px; }
+
+#articles-list .featured-article {
+  margin-top: 12px; }
+  #articles-list .featured-article .datetime-wrapper {
+    float: none;
+    margin-top: 18px; }
+  #articles-list .featured-article .category-wrapper {
+    margin-top: -3px;
+    margin-bottom: 20px;
+    text-align: left; }
+  #articles-list .featured-article h1 {
+    margin-top: -13px;
+    margin-bottom: -13px; }
+    #articles-list .featured-article h1 a {
+      color: #232323; }
+  #articles-list .featured-article .social {
+    margin-top: 2px; }
+    #articles-list .featured-article .social .social-heading {
+      font: bold 12px/24px "MuseoSansMedium", sans-serif;
+      margin-bottom: -4px; }
+    #articles-list .featured-article .social .social-listing li {
+      margin-right: 9px;
+      margin-top: 10px; }
+  #articles-list .featured-article .featured-article-footer {
+    margin-bottom: 10px; }
+#articles-list .datetime-wrapper {
+  margin: 0 20px 9px 0;
+  float: left; }
+#articles-list .category-wrapper {
+  margin-bottom: 6px; }
+#articles-list h2 {
+  font: normal 19px/27px "MuseoSansRegular", sans-serif; }
+#articles-list h3 {
+  font: normal 20px/20px "MuseoSansBlack", sans-serif;
+  margin-top: 16px; }
+  #articles-list h3 a {
+    color: #232323; }
+#articles-list #articles {
+  margin-top: 22px; }
+  #articles-list #articles .datetime-wrapper {
+    margin: -2px 17px 0 0; }
+  #articles-list #articles h4 {
+    margin-top: -1px;
+    font: normal 16px/24px "MuseoSansMedium", sans-serif; }
+  #articles-list #articles .category-wrapper {
+    margin: -3px 0 0 2px; }
+  #articles-list #articles .tags {
+    margin-top: 1px; }
+    #articles-list #articles .tags li {
+      margin-bottom: 8px; }
+  #articles-list #articles .social .social-heading {
+    font: bold 12px/24px "MuseoSansMedium", sans-serif;
+    margin-bottom: -4px; }
+  #articles-list #articles .social .social-listing li {
+    margin-right: 11px;
+    margin-top: -2px; }
+  #articles-list #articles .preview {
+    margin-top: 12px; }
+  #articles-list #articles hr {
+    margin-top: 0; }
+  #articles-list #articles .article-item {
+    margin-bottom: 40px; }
+#articles-list #pagination {
+  margin-top: -11px;
+  margin-bottom: 66px; }
+  #articles-list #pagination .pages-count {
+    margin-left: 142px;
+    color: #a5a5a5;
+    font: normal 16px/27px "MuseoSansRegular", sans-serif; }
+  #articles-list #pagination .next a {
+    border-color: #dbdbdb;
+    border-radius: 3px;
+    padding: 7px 16px;
+    color: #a5a5a5;
+    font: normal 12px/12px "MuseoSansRegular", sans-serif; }
+    #articles-list #pagination .next a .glyphicon-menu-right {
+      top: 2px;
+      left: 1px; }
+#articles-list .tags {
+  margin: 0; }
+  #articles-list .tags .tags-listing {
+    padding-left: 0; }
+#articles-list .social {
+  margin-top: 5px;
+  float: left; }
+  #articles-list .social .social-wrapper {
+    margin: 0;
+    width: 169px; }
+#articles-list .preview {
+  float: right;
+  margin-top: 19px;
+  width: 329px; }
+  #articles-list .preview .previews-count {
+    float: left;
+    color: #a5a5a5;
+    font: bold 14px/16px "MuseoSansMedium", sans-serif; }
+  #articles-list .preview ul li {
+    float: left;
+    margin-left: 25px;
+    margin-top: -2px; }
+    #articles-list .preview ul li a {
       color: #4b4b4b;
-      font: normal 0.6875em/0.625em "MuseoSansRegular", sans-serif;
-      background: #EDEDED;
-      display: inline-block;
-      padding: 8px 8px 6px 8px; }
-    #useful-articles .category-wrapper time {
-      color: #9b9b9b;
-      font: normal 0.875em/1em "MuseoSansRegular", sans-serif; }
+      font: bold 14px/16px "MuseoSansMedium", sans-serif; }
+#articles-list hr {
+  clear: both; }
 
 #footer {
   color: #232323;

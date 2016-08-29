@@ -1,332 +1,444 @@
-	<!DOCTYPE html>
-	<html lang="uk">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>BibiBlog</title>
-		
-		<!-- LIBS -->
-		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="uk">
 
-		<!-- CSS Styles -->
-		<link rel="stylesheet" href="css/fonts.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BibiBlog - Головна</title>
 
-		
-		<!-- IE HTML5 Support and Styles -->
-		<!--[if lte IE 9]>
-			<link rel="stylesheet" href="css/ie.css">
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="container container-full">
-			<!-- HEADER SECTION -->
-			<header id="header">
-					<div class="row no-margin">					
-						<div class="col-md-12">
-							<nav class="navbar navbar-default">
-								<div class="container-fluid">
-									<!-- Brand and toggle get grouped for better mobile display -->
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-											<span class="sr-only">Показати меню</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-									</div>
-							
-									<!-- Collect the nav links, forms, and other content for toggling -->
-									<div class="collapse navbar-collapse navbar-ex1-collapse">
-										<ul class="nav navbar-nav">
-											<li><a href="#" class="text-uppercase">послуги</a></li>
-											<li><a href="#" class="text-uppercase">про нас</a></li>
-											<li class="active text-uppercase"><a href="#">блог</a></li>
-										</ul>
-										<ul class="nav navbar-nav navbar-right">
-											<li class="address"><span>+38 067 28 444 97<br>м. Львів</span></li>
-											<li>
-												<button id="customers-login" type="button" class="btn btn-default">Вхід для клієнтів</button>
-											</li>
-										</ul>
-									</div><!-- /.navbar-collapse -->
-								</div>
-							</nav>
-						</div>
-					</div>
-					<div class="test col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<div id="logo">
-								&nbsp;
-							</div>
-					</div>
-			</header>
-			<!-- END HEADER SECTION -->
-			
-			<!-- MAIN SECTION -->
-			<div class="row row-centered">
-				<div class="col-md-12 col-centered">
-					<ul class="nav nav-pills">
-						<li role="presentation" ><a href="#">Усі</a></li>
-						<li role="presentation"><a href="#">Купівля Б/У авто</a></li>
-						<li role="presentation"><a href="#">Екстрені ситуації</a></li>
-						<li role="presentation"><a class="active" href="#">Обслуговування</a></li>
-						<li role="presentation"><a href="#">Наш досвід</a></li>
-						<li role="presentation" class="no-right-margin"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-					</ul>		
-					<hr class="divider">
-				</div>
-			
+  <!-- LIBS -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-			<!-- ARTICLE -->
-			<div class="row">
-				<div class="col-md-12">
-					<article class="main-article">
-						<header>
-							<p>
-								<time datetime="2016-08-26 14:35">Сьогодні, о 14:35</time>
-							</p>
-						</header>
-						<h1>Як уникнути обману на СТО</h1>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
-						<section class="article-body">	
-							<h2>П`ять правил безпечного ремонту автомобіля за <br> адекватні гроші</h2>
-							<p>«Умілий» майстер може завищити вартість ремонту та ТО в рази. При цьому зробить це так, що ви йому ще й дякую скажете. Як цього уникнути? Треба знати кілька деталей. Поїхали.</p>
-							
-							<img src="img/article1.jpg" class="img-responsive" alt="Плановий техогляд автомобіля">
-				
-							<h3>Звертайтесь на СТО вчасно, але лише у разі потреби</h3>
-				
-							<p>Основна стаття витрат на ремонт – планове ТО через 10-15 тис. км. Ну, або щорічний, в залежності від того що швидше. Взагалі «річна» прив’язка – умовна, її придумали для того, щоб прив’язати візити до гарантійних станцій технічного обслуговування. Але легковажити ТО не можна – від цього залежить безпека їзди. Цим власне майстри та гарантійні СТО і користуються.</p>
-				
-							<p>В процесі діагностики майстер перевіряє стан автомобіля та рекомендує ті вузли і частини, які потрібно замінити. Ось тут і розпочинається найцікавіше.</p>
-				
-							<img src="img/article2.jpg" class="img-responsive" alt="Майстер проводить діагностику двигуна">
+  <!-- IE HTML5 Support and Styles -->
+  <!--[if lte IE 9]>
+				<link rel="stylesheet" href="css/ie.css">
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<![endif]-->
+</head>
 
-							<h3>Переконайтеся що розумієте кожен пункт рахунку</h3>
-		
-							<p>Якщо ви не маєте стовідсоткової впевненості в СТО, на якому знаходитесь,  вам потрібно бути присутнім самому при діагностиці автомобіля.  Попросити, щоб майстер показав на несправність, яку потрібно виправити.</p>
-
-							<p>Так, ви далекі від автомобільного світу, але майстру буде важко вигадати чогось, що не існує і розповісти про нього, а от вкласти в рахунок це – дуже просто. Звісно, вас можуть і не впустити в  приміщення, але конкуренція зараз висока – можна наполягати.</p>
-					
-							<h3>Очі не бачать – запчастини нема</h3>
-							
-							
-							<p>Для кожного планового ТО є перелік запчастин, які слід замінити за стандартними процедурами. Як правило це фільтри та масло, плюс додатково виявлені пошкодження по ходовій частині.</p>
-		
-							<p>Машинне масло – один з найбільш небезпечних продуктів, його легко підробити. Саме тому раджу не економити і купувати в перевірених місцях. Масло для двигуна – це як кров для організму, фальсифікат може просто вбити двигун.</p>
-		
-							<p>Як перевірити чи проведена заміна? Дуже просто -- сказати майстру перед початком робіт, аби все, що було замінено, лежало в багажнику. Запчастини в коробочках. Поруч – порожня тара від масла.</p>
-		
-		
-							<blockquote class="quotation">
-								<hr>
-								<span class="quotation-text">В моїй практиці були випадки, коли керівництво СТО не знало, що «добросовісний» працівник не проводив заміну оплачених запчастин. Авто заїжджало в бокс, висіло на підйомнику, а далі ці запчастини і рідини ставали додатковим заробітком для майстра та бомбою сповільненої дії для власника автомобіля.</span>						
-		    			</blockquote>
-
-
-
-		    			<img src="img/article3.jpg" class="img-responsive" alt="Спідометр">
-		
-		    			<h3>Історію хвороби треба знати самому</h3>
-		
-		    			<p>Пробіг в автомобілі – надзвичайно важливий показник. Від нього залежать всі регламентні роботи та заміна запчастин, які необхідні для безпечної експлуатації. Цього правила дотримуються офіційні сервіси (дилерські СТО) для гарантійних авто, які забезпечені технічною документацію</p>
-		
-		    			<p>На звичайних приватних СТО ситуація інша – в більшості випадків ремонт відбувається після поломки, а не для її запобігання. Це дешевше, але зобов’язує власника самостійно відстежувати що, як і коли міняти замінювати в автомобілі. Якщо ви – не перший власник і автомобіль вживаний – розуміти послідовність ремонтів складно, адже відсутня інформація про історію обслуговування попереднім власником.</p>
-		
-		    			<p>В таких випадках після придбання, рекомендую замінити привідні ремені (ГРМ), ролики, та масла з фільтрами, щоб бути впевненим в безпеці і вести власний відлік.</p>
-						</section>
-						
-						<footer id="article-footer">
-							<section id="tags" class="clearfix">
-								<h4 class="list-heading">Теги:</h4>
-								<ul class="tags-listing">
-									<li>pемонт ходової</li>
-									<li>заміна масла</li>
-									<li>фільтри</li>
-								</ul>
-							</section>
-							<section id="social" class="clearfix">
-								<div id="social-wrapper">
-									<h4 class="social-heading">Поділитись:</h4>
-									<ul class="social-listing">
-										<li class="twitter-icon"></li>
-										<li class="fb-icon"></li>
-										<li class="gplus-icon"></li>
-									</ul>
-								</div>
-
-							</section>
-							<hr>
-						</footer>
-
-					</article>
-					
-				</div>
-				
-			</div>
-			<!-- END ARTICLE -->
-
-      <!-- COMMENTS -->
-      <div class="row">
+<body>
+  <div class="container container-full">
+    <!-- HEADER SECTION -->
+    <header id="header">
+      <div class="row no-margin">
         <div class="col-md-12">
-          <section id="comments">
-            <header id="main-nav">
-              <nav class="nav nav-primary">
-                <ul>
-                  <li class="nav-tab nav-tab-primary tab-conversation active">
-                    <a class="publisher-nav-color comment-count-wrapper">
-                      <span class="comment-count">
-                        0 comments
-                      </span>
-                      <span class="comment-count-placeholder">
-                        Comments
-                      </span>
-                    </a>
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Показати меню</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="service.html" class="text-uppercase">послуги</a>
                   </li>
-                  <li class="nav-tab nav-tab-primary tab-community">
-                    <a href="#" class="publisher-nav-color" id="community-tab">
-                      <span class="community-name">
-                        <strong>Cluster</strong>
-                      </span>
-                      <strong class="community-name-placeholder">Community</strong>
-                    </a>
+                  <li><a href="#" class="text-uppercase">про нас</a>
                   </li>
-                  <li class="nav-tab nav-tab-primary dropdown user-menu">
-                    <a href="#" class="dropdown-toggle">
-                      <span class="dropdown-toggle-wrapper">
-                        <span>Login</span>
-                      </span> <span class="caret"></span>
-                    </a>
-                  </li>
-                  <li class="nav-tab nav-tab-primary notification-menu unread">
-                    <a href="#" class="notification-container">
-                      <span class="notification-icon icon-comment glyphicon-comments-count " aria-hidden=""></span>
-                      <span class="notification-count">1</span>
-                    </a>
+                  <li class="active text-uppercase"><a href="index.html">блог</a>
                   </li>
                 </ul>
-              </nav>
-            </header>
-            <div class="nav nav-secondary">
-              <ul>
-                <li id="recommend-button" class="nav-tab nav-tab--secondary recommend dropdown">
-                  <div class="thread-likes">
-                    <a href="#" title="Recommend this discussion" class="dropdown-toggle ">
-                      <span class="glyphicon glyphicon-heart"></span>
-                      <span class="label-def">Recommend</span>
-                    </a>
-                  </div>
-                </li>
-                <li id="thread-share-menu" class="nav-tab nav-tab--secondary dropdown share-menu hidden-sm">
-                  <a href="#" class="dropdown-toggle" title="Share">
-                    <span class="glyphicon glyphicon-share"></span>
-                    <span class="label-def">Share</span>
-                  </a>
-                </li>
-                <li class="nav-tab nav-tab--secondary dropdown sorting pull-right">
-                  <a href="#" class="dropdown-toggle">
-                    Sort by Best
-                    <span class="caret"></span>
-                  </a>
-                </li>
-              </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="address"><span>+38 067 28 444 97<br>м. Львів</span>
+                  </li>
+                  <li>
+                    <button id="customers-login" type="button" class="btn btn-default">Вхід для клієнтів</button>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
             </div>
+          </nav>
+        </div>
+      </div>
+      <div class="logo-wrapper col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="logo">
+          &nbsp;
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER SECTION -->
 
-            <div id="posts">
-              <div id="form" class="textarea-wrapper--top-level">
-                <form class="reply">
-                  <div class="postbox">
-                    <div class="avatar">
-                      <span class="user">
-                        <img src="img/avatar.png" alt="Avatar">
-                      </span>
-                    </div>
-                    <div class="textarea-wrapper">                      
-                        <input type="text" class="textarea" tabindex="0" role="textbox" placeholder="Start the discussion…">                  
-                    </div>
+    <!-- SECONDARY NAVIGATION -->
+    <div class="row row-centered">
+      <div class="col-md-12 col-centered">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#">Усі</a>
+          </li>
+          <li role="presentation"><a href="#">Купівля Б/У авто</a>
+          </li>
+          <li role="presentation"><a href="#">Екстрені ситуації</a>
+          </li>
+          <li role="presentation"><a class="active" href="#">Обслуговування</a>
+          </li>
+          <li role="presentation"><a href="#">Наш досвід</a>
+          </li>
+          <li role="presentation" class="no-right-margin"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+          </li>
+        </ul>
+        <hr class="divider">
+
+
+    <!-- END SECONDARY NAVIGATION -->
+
+    <section id="articles-list" class="main-article">
+      <!-- MAIN ARTICLE -->
+      <div class="row">
+        <div class="col-md-12">
+          <article class="featured-article">
+
+            <div class="row">
+
+              <div class="col-md-12">
+                <header>
+                  <p id="featured-image-">
+                    <img class="img-responsive" src="img/article1.jpg" width="558" height="315" alt="Техогляд автомобіля">
+                  </p>
+                  <p class="datetime-wrapper">
+                    <time datetime="2016-08-26 14:35">Сьогодні, о 14:35</time>
+                  </p>
+                  <div class="category-wrapper">
+                    <span class="category">
+											Обслуговування			
+										</span>
                   </div>
-                  <div id="no-posts" style="">Be the first to comment.</div>
-                </form>
+                </header>
+
+                <h1><a href="article.html">Як уникнути обману на СТО</a></h1>
+
+                <h2>П`ять правил безпечного ремонту автомобіля за адекватні гроші</h2>
+
+                <footer class="featured-article-footer ">
+                  <section class="clearfix tags">
+                    <ul class="tags-listing">
+                      <li>pемонт ходової</li>
+                      <li>заміна масла</li>
+                      <li>фільтри</li>
+                    </ul>
+                  </section>
+                
+
+                <section class="clearfix social">
+                  <div class="social-wrapper">
+                    <h4 class="social-heading">Поділитись:</h4>
+                    <ul class="social-listing">
+                      <li class="twitter-icon"></li>
+                      <li class="fb-icon"></li>
+                      <li class="gplus-icon"></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <div class="preview">
+                  <p class="previews-count">100 переглядів</p>
+                  <ul>
+                    <li><a href="#">Коментарів (1)</a>
+                    </li>
+                    <li><a href="article.html">Читати далі</a></li>
+                  </ul>
+                </div>
+                <hr>
+                </footer>                
               </div>
             </div>
-          </section>
-        </div> 
+          </article>
+        </div>
       </div>
-      <!-- END COMMENTS -->
+      <!-- END MAIN ARTICLE -->
 
-			<!-- USEFUL ARTICLES -->
-			<div class="row">
-				<div class="col-md-12">
+      <!-- OTHER ARTICLES LIST -->
+      <div class="row">
+        <div class="col-md-12">
+          <section id="articles">
+            <div class="article-item">
+	            <div class="row">
+	              <div class="col-md-4 thumb">
+	                <img src="img/thumb.png" width="161" height="161" alt="thumbnail">
+	              </div>
+	              <div class="col-md-8">
+	                <p class="datetime-wrapper">
+	                  <time datetime="2016-08-26 14:35">Вчора, о 14:35</time>
+	                </p>
 
-					<aside id="useful-articles">
-						<hr>				
-						<h2 class="text-uppercase">статті, які можуть вас зацікавити</h2>
-						<div class="row">
-							<div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 category-wrapper">
-								<span class="category">
-									Наш досвід
-								</span>
-								<h3><a href="#">Обікрали автомобіль. Як цього уникнути?</a></h3>
-								<time datetime="2016-02-07">7 лютого 2016</time>
-							</div>
-							<div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 category-wrapper">
-								<span class="category">
-									Обслуговування			
-								</span>
-								<h3><a href="#">Обікрали автомобіль. Як цього уникнути?</a></h3>
-								<time datetime="2016-02-07">7 лютого 2016</time>
-							</div>
-							<div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 category-wrapper">
-								<span class="category">
-									Купівля Б/У авто
-								</span>
-								<h3><a href="#">Прості правила, які рятують життя</a></h3>
-								<time datetime="2015-12-21">21 грудня 2015</time>
-							</div>
-							<div class="col-md-5 col-sm-5 col-xs-12 col-md-offset-1 category-wrapper">
-								<span class="category">
-									Екстрені ситуації
-								</span>
-								<h3><a href="#">Прості правила, які рятують життя</a></h3>
-								<time datetime="2015-12-21">21 грудня 2015</time>
-							</div>
-							<div class="col-md-offset-1"></div>
+	                <div class="category-wrapper">
+	                  <span class="category">
+																	Обслуговування			
+																</span>
+	                </div>
+
+	                <h3><a href="article.html">Як уникнути обману на СТО</a></h3>
+
+	                <h4>П`ять пра
+												вил безпечного ремонту автомобіля за адекватні гроші</h4>
+
+	                <section class="tags clearfix">
+	                  <ul class="tags-listing">
+	                    <li>pемонт ходової</li>
+	                    <li>заміна масла</li>
+	                    <li>фільтри</li>
+	                  </ul>
+	                </section>
+	              </div>
+	            </div>
+
+	            <div class="row">
+	              <div class="col-md-12">
+	                <section class="social clearfix">
+	                  <div class="social-wrapper">
+	                    <h4 class="social-heading">Поділитись:</h4>
+	                    <ul class="social-listing">
+	                      <li class="twitter-icon"></li>
+	                      <li class="fb-icon"></li>
+	                      <li class="gplus-icon"></li>
+	                    </ul>
+	                  </div>
+	                </section>
+
+	                <div class="preview">
+	                  <p class="previews-count">100 переглядів</p>
+	                  <ul>
+	                    <li><a href="#">Коментарів (1)</a>
+	                    </li>
+	                    <li><a href="article.html">Читати далі</a></li>
+	                  </ul>
+	                </div>
+
+	              </div>
+	            </div>
+	            <hr>
 						</div>
-					</aside>
-				</div>			
-			</div>
-			<!-- END USEFUL ARTICLES -->
+					  <div class="article-item">
+            	<div class="row">
+              <div class="col-md-4 thumb">
+                <img src="img/thumb.png" width="161" height="161" alt="thumbnail">
+              </div>
+              <div class="col-md-8">
+                <p class="datetime-wrapper">
+                  <time datetime="2016-08-26 14:35">Вчора, о 14:35</time>
+                </p>
 
-			<!-- FOOTER -->
-			<div class="row">
-				<div class="col-md-12 col-centered">
-					<footer id="footer">
-						<p id="copyright">
-							<span>&copy; Бібігруп - Дружні автоконсультації</span>
-						</p>
-					</footer>
-				</div>
-			</div>
-			<!-- END FOOTER -->
-			</div>
+                <div class="category-wrapper">
+                  <span class="category">
+																Обслуговування			
+															</span>
+                </div>
 
-		</div>
+                <h3><a href="article.html">Як уникнути обману на СТО</a></h3>
 
-		<!-- SCRIPTS -->
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+                <h4>П`ять пра
+											вил безпечного ремонту автомобіля за адекватні гроші</h4>
 
-		<!-- Bootstrap -->	
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+                <section class="tags clearfix">
+                  <ul class="tags-listing">
+                    <li>pемонт ходової</li>
+                    <li>заміна масла</li>
+                    <li>фільтри</li>
+                  </ul>
+                </section>
+              </div>
+            	</div>
 
-		<!-- Placeholder -->
-		<!--[if lte IE 9]>
-			<script src="js/placeholder.min.js"></script>
-		<![endif]-->
-	</body>
+            	<div class="row">
+              <div class="col-md-12">
+                <section class="social clearfix">
+                  <div class="social-wrapper">
+                    <h4 class="social-heading">Поділитись:</h4>
+                    <ul class="social-listing">
+                      <li class="twitter-icon"></li>
+                      <li class="fb-icon"></li>
+                      <li class="gplus-icon"></li>
+                    </ul>
+                  </div>
+                </section>
 
-	</html>
+                <div class="preview">
+                  <p class="previews-count">100 переглядів</p>
+                  <ul>
+                    <li><a href="#">Коментарів (1)</a>
+                    </li>
+                    <li><a href="article.html">Читати далі</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            	</div>
+            	<hr>
+						</div>
+					  <div class="article-item">
+            	<div class="row">
+              <div class="col-md-4 thumb">
+                <img src="img/thumb.png" width="161" height="161" alt="thumbnail">
+              </div>
+              <div class="col-md-8">
+                <p class="datetime-wrapper">
+                  <time datetime="2016-08-26 14:35">Вчора, о 14:35</time>
+                </p>
+
+                <div class="category-wrapper">
+                  <span class="category">
+																Обслуговування			
+															</span>
+                </div>
+
+                <h3><a href="article.html">Як уникнути обману на СТО</a></h3>
+
+                <h4>П`ять пра
+											вил безпечного ремонту автомобіля за адекватні гроші</h4>
+
+                <section class="tags clearfix">
+                  <ul class="tags-listing">
+                    <li>pемонт ходової</li>
+                    <li>заміна масла</li>
+                    <li>фільтри</li>
+                  </ul>
+                </section>
+              </div>
+            	</div>
+
+            	<div class="row">
+              <div class="col-md-12">
+                <section class="social clearfix">
+                  <div class="social-wrapper">
+                    <h4 class="social-heading">Поділитись:</h4>
+                    <ul class="social-listing">
+                      <li class="twitter-icon"></li>
+                      <li class="fb-icon"></li>
+                      <li class="gplus-icon"></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <div class="preview">
+                  <p class="previews-count">100 переглядів</p>
+                  <ul>
+                    <li><a href="#">Коментарів (1)</a>
+                    </li>
+                    <li><a href="article.html">Читати далі</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            	</div>
+            	<hr>
+						</div>
+          	<div class="article-item">
+            	<div class="row">
+              <div class="col-md-4 thumb">
+                <img src="img/thumb.png" width="161" height="161" alt="thumbnail">
+              </div>
+              <div class="col-md-8">
+                <p class="datetime-wrapper">
+                  <time datetime="2016-08-26 14:35">Вчора, о 14:35</time>
+                </p>
+
+                <div class="category-wrapper">
+                  <span class="category">
+																Обслуговування			
+															</span>
+                </div>
+
+                <h3><a href="article.html">Як уникнути обману на СТО</a></h3>
+
+                <h4>П`ять пра
+											вил безпечного ремонту автомобіля за адекватні гроші</h4>
+
+                <section class="tags clearfix">
+                  <ul class="tags-listing">
+                    <li>pемонт ходової</li>
+                    <li>заміна масла</li>
+                    <li>фільтри</li>
+                  </ul>
+                </section>
+              </div>
+            	</div>
+
+            	<div class="row">
+              <div class="col-md-12">
+                <section class="social clearfix">
+                  <div class="social-wrapper">
+                    <h4 class="social-heading">Поділитись:</h4>
+                    <ul class="social-listing">
+                      <li class="twitter-icon"></li>
+                      <li class="fb-icon"></li>
+                      <li class="gplus-icon"></li>
+                    </ul>
+                  </div>
+                </section>
+
+                <div class="preview">
+                  <p class="previews-count">100 переглядів</p>
+                  <ul>
+                    <li><a href="#">Коментарів (1)</a>
+                    </li>
+                    <li><a href="article.html">Читати далі</a></li>
+                  </ul>
+                </div>
+
+              </div>
+            	</div>
+            	<hr>
+						</div>
+          </section>
+        </div>
+      </div>
+      <!-- END OTHER ARTICLES LIST -->
+
+      <!-- PAGINATION -->
+      <div class="row">
+        <div class="col-md-12">
+          <nav id="pagination" aria-label="pagination">
+            <ul class="pager">
+              <li class="pages-count">Сторінка 1 з 3</li>
+              <li class="next"><a href="#">Попередні статті<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- END PAGINATION -->
+    </section>
+    
+
+    <!-- FOOTER -->
+    <div class="row">
+      <div class="col-md-12 col-centered">
+        <footer id="footer">
+          <p id="copyright">
+            <span>&copy; Бібігруп - Дружні автоконсультації</span>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <!-- END FOOTER -->
+
+    	</div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Placeholder -->
+  <!--[if lte IE 9]>
+				<script src="js/placeholder.min.js"></script>
+			<![endif]-->
+</body>
+
+</html>

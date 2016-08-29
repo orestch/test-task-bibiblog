@@ -166,7 +166,7 @@ body {
 
 .divider {
 margin-top: -10px;
-width: 680px;
+width: 90%;
 height: 3px;
 background-color: #EDEDED;
 }
@@ -202,14 +202,14 @@ background-color: #EDEDED;
 	margin: 0 auto;
 	margin-top: 35px;
 
-	header {
+	
 		time {
 			color: $light-grey-info;
 			font: normal em(14)/em(26) $museoregular, sans-serif;
 		}
 
 		
-	}
+	
 
 	h1 {
 			color: $dark-grey-heading;
@@ -258,7 +258,7 @@ background-color: #EDEDED;
 		}
 	}
 
-	#tags {
+	.tags {
 		margin-top: 42px;
 		.list-heading {
 			color: $middle-grey-subtitle-h;
@@ -281,14 +281,14 @@ background-color: #EDEDED;
 		}
 	}
 
-	#social {
+	.social {
 		clear: both;
 		margin-top: 18px;
 		text-align: center;
 
 		
 
-		#social-wrapper {
+		.social-wrapper {
 			margin: 0 auto;
 			width: 155px;
 		}
@@ -311,7 +311,7 @@ background-color: #EDEDED;
 
 	#article-footer {
 		hr {
-			width: 558px;
+			width: 85%;
 			height: 2px;
 			margin-top: -12px;
 			
@@ -343,6 +343,10 @@ background-color: #EDEDED;
 #comments {
 	margin-top: 25px;
 	padding: 0 57px;
+	h2 {
+		display: none;
+	}
+
 	.nav-primary {
     margin: 0 0 24px;
     border-bottom: 2px solid #e7e9ee;
@@ -754,7 +758,7 @@ background-color: #EDEDED;
 	padding: 0 18px;
 
 	hr {
-		width: 680px;
+		width: 90%;
 		height: 3px;
 		opacity: 0.1;
 		background-color: $middle-grey-subtitle;
@@ -779,6 +783,14 @@ background-color: #EDEDED;
 		}
 	}
 
+
+
+		time {
+			color: $light-grey-info;
+			font: normal em(14)/em(16) $museoregular, sans-serif;
+		}
+	}
+
 	.category-wrapper {
 		margin-bottom: 20px;
 		.category {
@@ -790,14 +802,207 @@ background-color: #EDEDED;
 
 		}
 
-		time {
-			color: $light-grey-info;
-			font: normal em(14)/em(16) $museoregular, sans-serif;
+	
+}
+
+// ARTICLES LIST
+#articles-list {
+	.featured-article {
+		margin-top: 12px;
+
+		.datetime-wrapper {
+			float: none;
+			margin-top: 18px;
 		}
+
+		.category-wrapper {
+			margin-top: -3px;
+			margin-bottom: 20px;
+			text-align: left;
+		}
+
+		h1 {
+				margin-top: -13px;
+		    margin-bottom: -13px;
+		    a {
+		    	color: $dark-grey-heading;
+		    }
+		}
+
+
+
+		.social {
+			margin-top: 2px;
+			.social-heading {
+				font: bold 12px/24px $museomedium, sans-serif;
+				margin-bottom: -4px;
+			}
+
+			.social-listing {
+				li {
+					margin-right: 9px;
+    			margin-top: 10px;
+				}				
+			}
+		}
+
+		.featured-article-footer {
+			margin-bottom: 10px;
+		}
+
+
+	}
+
+	.datetime-wrapper {
+		margin: 0 20px 9px 0; 
+		float: left;
+	}
+
+	.category-wrapper {
+    margin-bottom: 6px;
 	}
 
 	
+
+	h2 {
+		font: normal 19px/27px $museoregular, sans-serif;
+	}
+
+	h3 {
+		font: normal 20px/20px $museoblack, sans-serif;
+		margin-top: 16px;
+		a {
+		    	color: $dark-grey-heading;
+		    }
+	}	
+
+	
+
+	#articles {
+		margin-top: 22px;
+		.datetime-wrapper {
+			margin: -2px 17px 0 0;
+		}
+
+		h4 {
+			margin-top: -1px;
+			font: normal 16px/24px $museomedium, sans-serif;
+		}
+
+		.category-wrapper {
+			margin: -3px 0 0 2px;
+		}
+
+		.tags {
+			margin-top: 1px;
+
+			li {
+				margin-bottom: 8px;
+			}
+		}
+
+		.social {
+			.social-heading {
+				font: bold 12px/24px $museomedium, sans-serif;
+				margin-bottom: -4px;
+			}
+
+			.social-listing {
+				li {
+					margin-right: 11px;
+    			margin-top: -2px;
+				}				
+			}
+		}
+
+		
+
+		.preview {
+			    margin-top: 12px;
+		}
+
+		hr {
+			margin-top: 0;
+		}
+
+		.article-item {
+			margin-bottom: 40px;
+			
+		}
+	}
+	
+	// PAGINATION
+	#pagination {
+		margin-top: -11px;
+		margin-bottom: 66px;
+		.pages-count {
+			margin-left: 142px;
+			color: $middle-grey-subtitle-h;
+			font: normal 16px/27px $museoregular, sans-serif;
+		}
+		.next a {
+			border-color: $middle-grey-subtitle-l;
+			border-radius: 3px;
+			    padding: 7px 16px;
+			color: $middle-grey-subtitle-h;
+			font: normal 12px/12px $museoregular, sans-serif;
+			.glyphicon-menu-right {
+				top: 2px;
+				left: 1px;
+			}
+		}
+
+
+	}
+
+
+
+	.tags {
+		margin: 0;
+		.tags-listing {
+			padding-left: 0;
+		}
+	}
+
+	.social {
+		    margin-top: 5px;
+		    float: left;
+		    .social-wrapper {
+		    	margin: 0;
+		    	width: 169px;
+		    }
+	}
+
+	.preview {
+		float: right;
+		margin-top: 19px;
+		    width: 329px;
+		.previews-count {
+			float: left;
+			color: $middle-grey-subtitle-h;
+			font: bold 14px/16px $museomedium, sans-serif;
+		}
+		ul {
+			li {
+				float: left;
+				margin-left: 25px;
+				margin-top: -2px;
+
+				a {
+					color: $middle-grey-subtitle;
+					font: bold 14px/16px $museomedium, sans-serif;
+					
+				}
+			}
+		}
+	}
+
+	hr {
+		clear: both;
+	}
 }
+
+
 
 // FOOTER 
 #footer {

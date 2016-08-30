@@ -115,6 +115,71 @@
 					margin-bottom: 8px;
 				}				
 			}
+
+			// SERVICE 
+			.man {
+				display: none;				
+			}
+
+			.service-wrapper {
+				.jumbo {
+					p, button {
+						margin-bottom: 25px;
+					}
+
+					.service-image {
+						text-align: center;
+						img {
+							display: inline-block;
+						max-width: 100%;
+						height: auto;
+						}
+					}
+
+					.btn-red {
+						padding: 10px 15px;
+						font-size: 12px;
+					}
+				}
+
+				#blog {
+    			margin-top: 60px;
+
+					.featured-article {
+						margin-bottom: 40px;
+					}
+
+					#articles-list {
+						    text-align: center;
+						    .tags-listing {
+						    	margin: 0 auto;
+									max-width: 390px;
+						    }
+
+						    .img-responsive {
+						    	margin: 0 auto;
+						    }
+					}
+				}
+
+				#about {
+					text-align: center;
+					padding: 25px 0 15px 0;
+
+					.author-image {
+						margin-bottom: 10px;
+					}
+
+					#author-contact {
+						ul {
+							li {
+								margin-bottom: 10px;
+								margin-right: 0;
+							}
+						}
+					}
+				}
+			}
 }
 
 
@@ -149,6 +214,50 @@
 					text-align: left;
 				}
 			}
+
+		// SERVICE 
+			.man {
+				display: none;				
+			}
+
+			.service-wrapper {
+				.jumbo {
+					p, button {
+						margin-bottom: 25px;
+					}
+
+					.service-image {
+						text-align: center;
+					}
+				}
+
+				#blog {
+    			margin-top: 60px;
+
+					.featured-article {
+						margin-bottom: 40px;
+					}
+
+					#articles-list {
+						    text-align: center;
+						    .tags-listing {
+						    	margin: 0 auto;
+									max-width: 390px;
+						    }
+
+						    .img-responsive {
+						    	margin: 0 auto;
+						    }
+					}
+				}
+
+				#about {
+					text-align: center;
+				}
+			}
+
+
+			
 }
 
 

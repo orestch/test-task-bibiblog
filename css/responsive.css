@@ -62,7 +62,41 @@
     float: none !important; }
 
   .tags li {
-    margin-bottom: 8px; } }
+    margin-bottom: 8px; }
+
+  .man {
+    display: none; }
+
+  .service-wrapper .jumbo p, .service-wrapper .jumbo button {
+    margin-bottom: 25px; }
+  .service-wrapper .jumbo .service-image {
+    text-align: center; }
+    .service-wrapper .jumbo .service-image img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto; }
+  .service-wrapper .jumbo .btn-red {
+    padding: 10px 15px;
+    font-size: 12px; }
+  .service-wrapper #blog {
+    margin-top: 60px; }
+    .service-wrapper #blog .featured-article {
+      margin-bottom: 40px; }
+    .service-wrapper #blog #articles-list {
+      text-align: center; }
+      .service-wrapper #blog #articles-list .tags-listing {
+        margin: 0 auto;
+        max-width: 390px; }
+      .service-wrapper #blog #articles-list .img-responsive {
+        margin: 0 auto; }
+  .service-wrapper #about {
+    text-align: center;
+    padding: 25px 0 15px 0; }
+    .service-wrapper #about .author-image {
+      margin-bottom: 10px; }
+    .service-wrapper #about #author-contact ul li {
+      margin-bottom: 10px;
+      margin-right: 0; } }
 /* Portrait and Landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #header .address {
@@ -79,6 +113,27 @@
     margin-bottom: 20px; }
 
   .article-item .category-wrapper {
-    text-align: left; } }
+    text-align: left; }
+
+  .man {
+    display: none; }
+
+  .service-wrapper .jumbo p, .service-wrapper .jumbo button {
+    margin-bottom: 25px; }
+  .service-wrapper .jumbo .service-image {
+    text-align: center; }
+  .service-wrapper #blog {
+    margin-top: 60px; }
+    .service-wrapper #blog .featured-article {
+      margin-bottom: 40px; }
+    .service-wrapper #blog #articles-list {
+      text-align: center; }
+      .service-wrapper #blog #articles-list .tags-listing {
+        margin: 0 auto;
+        max-width: 390px; }
+      .service-wrapper #blog #articles-list .img-responsive {
+        margin: 0 auto; }
+  .service-wrapper #about {
+    text-align: center; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -1075,6 +1075,177 @@ body {
 #articles-list hr {
   clear: both; }
 
+.service-wrapper #main-section-service-wrapper {
+  background-color: #e8e8e8;
+  padding-bottom: 45px; }
+  .service-wrapper #main-section-service-wrapper .divider {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity*100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=10);
+    /* Netscape */
+    -moz-opacity: 0.1;
+    /* Safari 1.x */
+    -khtml-opacity: 0.1;
+    /* Good browsers */
+    opacity: 0.1;
+    background-color: #4b4b4b;
+    border: none; }
+  .service-wrapper #main-section-service-wrapper .man {
+    padding-top: 250px; }
+.service-wrapper .content-wrapper {
+  max-width: 1112px;
+  margin-top: 55px;
+  margin: 0 auto; }
+.service-wrapper .jumbo h1 {
+  color: #4b4b4b;
+  letter-spacing: 1.2px;
+  font: bold 24px/29px "MuseoSansBold", sans-serif;
+  margin-bottom: 18px; }
+.service-wrapper .jumbo p {
+  color: #4b4b4b;
+  font: normal 18px/27px "MuseoSansRegular", sans-serif;
+  margin-bottom: 69px; }
+.service-wrapper .nav-pills .active a, .service-wrapper .nav-pills .active a:hover {
+  font: bold 14px/1.6875em "MuseoSansMedium", sans-serif;
+  background: none; }
+.service-wrapper .nav-pills li {
+  margin-right: -6px; }
+  .service-wrapper .nav-pills li a, .service-wrapper .nav-pills li a:hover {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity*100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=70);
+    /* Netscape */
+    -moz-opacity: 0.7;
+    /* Safari 1.x */
+    -khtml-opacity: 0.7;
+    /* Good browsers */
+    opacity: 0.7;
+    color: #4b4b4b;
+    font: normal 14px/1.6875em "MuseoSansRegular", sans-serif; }
+.service-wrapper .btn-red {
+  padding: 12px 40px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  font: normal 16px/1.0625em "MuseoSansMedium", sans-serif;
+  background-image: -webkit-linear-gradient(270deg, #bb141a 0%, #dd152e 25%, #dc1830 49%, #ff213c 71%, #ed1b35 81%, #b7131a 100%);
+  background-image: linear-gradient(180deg, #bb141a 0%, #dd152e 25%, #dc1830 49%, #ff213c 71%, #ed1b35 81%, #b7131a 100%);
+  border-radius: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+.service-wrapper .btn-red:focus, .service-wrapper .btn-red:active {
+  outline: none;
+  border: none;
+  color: #fff; }
+.service-wrapper #about {
+  padding: 62px 0 40px 0;
+  margin-bottom: 97px;
+  border: 3px solid #e8e8e8; }
+  .service-wrapper #about img {
+    background-image: -webkit-linear-gradient(bottom, rgba(196, 196, 196, 0.1) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(199, 201, 207, 0.1) 65%, rgba(160, 161, 165, 0.1) 100%);
+    background-image: linear-gradient(to top, rgba(196, 196, 196, 0.1) 0%, rgba(255, 255, 255, 0.1) 25%, rgba(199, 201, 207, 0.1) 65%, rgba(160, 161, 165, 0.1) 100%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+  .service-wrapper #about blockquote {
+    border: none; }
+    .service-wrapper #about blockquote #cite-author {
+      text-transform: uppercase;
+      color: #9b9b9b;
+      font: normal 16px/19px "MuseoSansRegular", sans-serif;
+      letter-spacing: 0.67px;
+      margin-bottom: 58px; }
+    .service-wrapper #about blockquote #cite-text {
+      margin-bottom: 28px; }
+      .service-wrapper #about blockquote #cite-text p {
+        font: normal 18px/27px "MuseoSansRegular", sans-serif;
+        color: #4b4b4b;
+        margin-bottom: 0; }
+  .service-wrapper #about ul {
+    padding-left: 0; }
+  .service-wrapper #about li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 25px; }
+    .service-wrapper #about li span {
+      line-height: 18px;
+      height: 18px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 14px;
+      color: #4b4b4b;
+      font: normal 18px/18px "MuseoSansMedium", sans-serif; }
+  .service-wrapper #about .glyphicon-icon-earphone {
+    height: 22px;
+    width: 22px;
+    background-image: url(../img/icon-earphone.png);
+    background-size: cover; }
+  .service-wrapper #about .glyphicon-icon-envelope {
+    height: 18px;
+    width: 24px;
+    background-image: url(../img/icon-envelope.png);
+    background-size: cover; }
+
+#main-section-service-wrapper .divider {
+  margin-bottom: 55px; }
+
+#blog {
+  margin-top: 103px; }
+  #blog .datetime-wrapper {
+    float: none;
+    margin-top: 22px !important;
+    margin-bottom: 22px; }
+  #blog .blog-heading {
+    margin-bottom: 48px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font: bold 24px/29px "MuseoSansRegular", sans-serif;
+    text-transform: uppercase;
+    color: #4b4b4b; }
+  #blog .featured-article {
+    margin-top: 0; }
+    #blog .featured-article .title {
+      margin-bottom: 11px; }
+      #blog .featured-article .title a {
+        color: #be141b;
+        font: bold 24px/30px "MuseoSansMedium", sans-serif; }
+    #blog .featured-article .subtitle {
+      font: normal 16px/27px "MuseoSansRegular", sans-serif;
+      color: #4b4b4b; }
+  #blog .article-item {
+    margin-bottom: 50px;
+    margin-left: 38px; }
+    #blog .article-item div {
+      padding-right: 0; }
+    #blog .article-item .datetime-wrapper {
+      margin: 0 !important; }
+    #blog .article-item .title {
+      color: #4b4b4b; }
+    #blog .article-item .subtitle {
+      color: #4b4b4b;
+      font: normal 16px/24px "MuseoSansRegular", sans-serif; }
+    #blog .article-item .article-item-body {
+      margin-left: -15px; }
+  #blog #articles-list {
+    margin-bottom: 79px; }
+  #blog .all-articles {
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity*100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=80);
+    /* Netscape */
+    -moz-opacity: 0.8;
+    /* Safari 1.x */
+    -khtml-opacity: 0.8;
+    /* Good browsers */
+    opacity: 0.8;
+    color: #9b9b9b;
+    font-family: "Museo Sans Cyrl";
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 29px;
+    margin-left: 38px;
+    font: normal 24px/29px "MuseoSansMedium", sans-serif; }
+
 #footer {
   color: #232323;
   font: normal 0.75em/1.6875em "MuseoSansRegular", sans-serif;

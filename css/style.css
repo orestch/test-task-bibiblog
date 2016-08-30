@@ -413,6 +413,10 @@ body {
     width: 144px;
     height: 144px;
     background-image: url("../img/logo.png"); }
+    #header #logo a {
+      display: block;
+      width: 100%;
+      min-height: 100%; }
   #header .navbar li {
     height: 100px;
     line-height: 100px; }
